@@ -1,0 +1,84 @@
+/**
+{
+	name: "Defaults",
+	imageUrl: "",
+	public: false,
+	using: []
+}
+**/
+#control-panel-wrapper, .control-wrapper{
+	display: flex;
+	flex-flow: column;
+}
+
+.hidden-control>legend:after{
+	content: " +";
+}
+
+.hidden-control>*:not(legend){
+	display: none;
+}
+
+#control-panel-thrusters{
+	order: 1;
+}
+
+#legend_control-panel-thrusters:before{
+	content: "Control thrusters";
+}
+
+#control-panel-thrusters output:after{
+	content: " %";
+}
+
+#control-thrusters-main-thruster{
+	order: 1;
+}
+
+#control-thrusters-forward-thruster{
+	order: 2;
+}
+
+#control-thrusters-backward-thruster{
+	order: 3;
+}
+
+#control-thrusters-right-thruster{
+	order: 4;
+}
+
+#control-thrusters-left-thruster{
+	order: 5;
+}
+
+#control-thrusters-rotation-thruster{
+	order: 6;
+}
+
+.control-type-range>label, output{
+	vertical-align: super;
+}
+
+#label_control-input-thrusters-main-thruster:before{
+	content: "Main thruster";
+}
+
+#label_control-input-thrusters-forward-thruster:before{
+	content: "Forward";
+}
+
+#label_control-input-thrusters-backward-thruster:before{
+	content: "Backward";
+}
+
+#label_control-input-thrusters-right-thruster:before{
+	content: "Right";
+}
+
+#label_control-input-thrusters-left-thruster:before{
+	content: "Left";
+}
+
+#label_control-input-thrusters-rotation-thruster:before{
+	content: "Rotation";
+}
