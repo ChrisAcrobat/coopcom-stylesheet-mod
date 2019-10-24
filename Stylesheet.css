@@ -1,10 +1,10 @@
 /**
 {
-	name: "Defaults",
-	description: ""
-	imageUrl: "",
-	public: false,
-	using: []
+	"name": "Defaults",
+	"description": "",
+	"imageUrl": "",
+	"public": false,
+	"using": []
 }
 **/
 #control-panel-wrapper, .control-wrapper{

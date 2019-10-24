@@ -20,16 +20,16 @@ Example:
 ```JSON
 /**
 {
-	name: "example",
-	description: "",
-	imageUrl: "",
-	public: false,
-	using: [
+	"name": "example",
+	"description": "",
+	"imageUrl": "",
+	"public": false,
+	"using": [
 		"localFile.css",
 		{
-			user: "testo",
-			repository: "coopcom-stylesheet-mod-test",
-			file: "Classic.css"
+			"user": "testo",
+			"repository": "coopcom-stylesheet-mod-test",
+			"file": "Classic.css"
 		}
 	]
 }
