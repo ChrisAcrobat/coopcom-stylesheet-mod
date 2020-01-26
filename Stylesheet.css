@@ -8,7 +8,7 @@
 }
 **/
 audio.alarm{
-	src: "https://www.w3schools.com/jsref/horse.ogg"; /* TODO: Replace */
+	--src: "https://www.w3schools.com/jsref/horse.ogg"; /* TODO: Replace */
 }
 
 #control-panel-wrapper, .control-wrapper{
