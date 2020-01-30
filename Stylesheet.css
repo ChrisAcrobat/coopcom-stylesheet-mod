@@ -8,7 +8,10 @@
 }
 **/
 audio.alarm{
-	--src: https://www.w3schools.com/jsref/horse.ogg; /* TODO: Replace */
+	--sources: [
+		"https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-41945/zapsplat_science_fiction_alarm_siren_slightly_harsh_44983.mp3",
+		"https://www.zapsplat.com/wp-content/uploads/2015/sound-effects-41945/zapsplat_emergency_alarm_small_siren_44509.mp3"
+	]; /* TODO: Replace */
 }
 
 #control-panel-wrapper, .control-wrapper{
