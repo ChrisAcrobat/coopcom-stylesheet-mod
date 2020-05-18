@@ -25,7 +25,7 @@ Example:
 	"imageUrl": "",
 	"public": false,
 	"using": [
-		"localFile.css",
+		"localRepresetoryFile.css",
 		{
 			"user": "testo",
 			"repository": "coopcom-stylesheet-mod-test",
