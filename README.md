@@ -23,6 +23,7 @@ Example:
 	"name": "example",
 	"description": "",
 	"imageUrl": "",
+	"ui-version": 1,
 	"public": false,
 	"using": [
 		"localRepresetoryFile.css",
